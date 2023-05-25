@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Gothic', sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  section {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Gothic', sans-serif;
+    background-color: #222;
+    color: #fff;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Gothic', sans-serif;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  label#guessResult {
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+  }
+  
